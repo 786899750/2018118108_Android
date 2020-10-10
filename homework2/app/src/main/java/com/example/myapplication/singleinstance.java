@@ -23,7 +23,7 @@ public class singleinstance extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(singleinstance.this,singleTask.class);
-                //intent.setData(Uri.parse("tel:10000"));
+              
                 startActivity(intent);
             }
         });
