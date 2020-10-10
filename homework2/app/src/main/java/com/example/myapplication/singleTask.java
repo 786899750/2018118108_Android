@@ -18,7 +18,7 @@ public class singleTask extends AppCompatActivity {
         setContentView(R.layout.activity_single_task);
 
         Button button1=(Button)findViewById(R.id.button_4);
-        Log.d("singleTask","onRestart");
+        Log.d("SingleTask","onRestart");
 
         button1.setOnClickListener(new View.OnClickListener()
         {
