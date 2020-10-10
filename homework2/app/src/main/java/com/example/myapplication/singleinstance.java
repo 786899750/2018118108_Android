@@ -15,7 +15,7 @@ public class singleinstance extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_singleinstance);
-        Log.d(num,"Task id is "+getTaskId());
+        Log.d(num,"Task id "+getTaskId());
 
         Button button2=(Button)findViewById(R.id.button_2);
         button2.setOnClickListener(new View.OnClickListener()
